@@ -18,13 +18,13 @@ Based on the user activity the startup would like to perform some analytics to d
 
 ### Create Tables
 Created the following **DIMENSION** tables
->> 1. Users
->> 2. Songs
->> 3. Artists
->> 4. Time
+> 1. Users
+> 2. Songs
+> 3. Artists
+> 4. Time
 
 Created the **FACT** table: 
->> Songplays
+> Songplays
 
 ### Sample Queries which can be used for Analytics
 - For a given user what is his favorite songs (most played ones)
