@@ -17,13 +17,13 @@ Based on the user activity the startup would like to perform some analytics to d
 ![STAR SCHEMA](Sparkifydb.png)
 
 ### Create Tables
-> Created the following **DIMENSION** tables
+Created the following **DIMENSION** tables
 >> 1. Users
 >> 2. Songs
 >> 3. Artists
 >> 4. Time
 
-> Created the **FACT** table: 
+Created the **FACT** table: 
 >> Songplays
 
 ### Sample Queries which can be used for Analytics
