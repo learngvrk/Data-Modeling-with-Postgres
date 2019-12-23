@@ -14,6 +14,6 @@ Based on the user activity the startup would like to perform some analytics to d
 - Artists, Users, Songs, Time are the most quintessential dimensions needed to build the fact table, which is then used to derive insights.
 - **FACT TABLE:** contains the required dimensions to categorize and their measures (build aggregations) to derive facts, which enables analyze the user behavior.
 
-![STAR SCHEMA](Sparkifydb.pdf)
+![STAR SCHEMA](Sparkifydb.png)
 
 ### 
