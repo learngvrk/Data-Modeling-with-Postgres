@@ -16,4 +16,7 @@ Based on the user activity the startup would like to perform some analytics to d
 
 ![STAR SCHEMA](Sparkifydb.png)
 
-### 
+### Sample Queries which can be used for Analytics
+- For a given user what is his favorite songs (most played ones)
+- What is the most played songs (Toppers) at a given time of the day or season based on user demographics
+- Is there a song which is played across all regions of the country.
