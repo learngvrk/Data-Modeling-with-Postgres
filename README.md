@@ -8,4 +8,6 @@ The startup Sparkify was interested to analyze the data collected from the user 
 
 Based on the user activity the startup would like to perform some analytics to derive insights which will help the organization to better understand the user behavior, and so add more interesting features to their mobile app which would enhance the user experience and stratergize the product development roadmap.
 
+### Database Schema
+
 
