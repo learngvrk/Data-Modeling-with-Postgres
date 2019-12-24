@@ -4,6 +4,7 @@
 ## Project 1 - Data Modeling with Postgres
 
 ![MUSIC DATA ANALYTICS](Music App Analytics.jpg)
+
 ### Background:
 The startup Sparkify was interested to analyze the data collected from the user activity on their music app on the mobile phones.
 
