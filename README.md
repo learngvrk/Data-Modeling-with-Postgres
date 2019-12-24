@@ -32,4 +32,4 @@ Created the **FACT** table:
 - Is there a song which is played across all regions of the country.
 
 ### Perform ETL
-1. Extract data from songs data JSON file 
+1. Extract data from songs data JSON file to fill in the **SONGS** and **ARTISTS** table
