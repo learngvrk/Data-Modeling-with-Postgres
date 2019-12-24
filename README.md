@@ -22,13 +22,13 @@ Based on the user activity the startup would like to perform some analytics to d
 
 ### Create Tables
 Created the following **DIMENSION** tables
-> 1. Users
-> 2. Songs
-> 3. Artists
-> 4. Time
+> 1. Users: user info (columns: user_id, first_name, last_name, gender, level)
+> 2. Songs: song info (columns: song_id, title, artist_id, year, duration)
+> 3. Artists: artist info (columns: artist_id, name, location, latitude, longitude)
+> 4. Time: detailed time info about song plays (columns: start_time, hour, day, week, month, year, weekday)
 
 Created the **FACT** table: 
-> Songplays
+> songplays: song play data together with user, artist, and song info (songplay_id, start_time, user_id, level, song_id, artist_id, session_id, location, user_agent)
 
 ### SQL Queries
 <ol>
