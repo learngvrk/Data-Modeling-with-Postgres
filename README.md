@@ -16,4 +16,39 @@ Based on the user activity the startup would like to perform some analytics to d
 
 ![STAR SCHEMA](Sparkifydb.png)
 
-### 
+### Create Tables
+Created the following **DIMENSION** tables
+> 1. Users
+> 2. Songs
+> 3. Artists
+> 4. Time
+
+Created the **FACT** table: 
+> Songplays
+
+### SQL Queries
+<ol>
+  <li> Establish connection to the local instance of the Postgres DB.</li>
+  <li> Create CREATE TABLE statements to Create Dimension and Fact tables.</li>
+  <li> Create INSERT INTO TABLE statements to enter the songs and log data into the Dimension and Fact table.</li>
+
+### Perform ETL
+<ol>
+<li> Extract data from songs data JSON file to fill in the **SONGS** and **ARTISTS** dimension table.</li>
+<li> Extract data from log data JSON file to fill in the **USERS** and **TIME** dimension table.</li>
+<ol>
+  <li> Timestamp is represented as milliseconds in the log data.</li>
+  <li> Timestamp is transformed into **Time (hh:mm:ss), Hour, Day, Week of Year, Month, Year, Day of Week**.</li>
+</ol>
+<li> Extract the log data, and data from dimension tables to fill in the **SONGPLAYS** FACT table.</li>
+</ol>
+
+### Convert Jupter Note Book Code into Modular Python code (.py) file
+1. Convert the Python Scripts from the web kernel to modular Python code (.py) file.
+2. Create common functions to perform the database and ETL functions.
+
+
+### Sample Queries which can be used for Analytics
+- For a given user what is his favorite songs (most played ones)
+- What is the most played songs (Toppers) at a given time of the day or season based on user demographics
+- Is there a song which is played across all regions of the country.
