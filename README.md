@@ -4,6 +4,7 @@
 ## Project 1 - Data Modeling with Postgres
 
 ![MUSIC DATA ANALYTICS](Music_App_Analytics.jpg)
+
 Courtesy: Adobe Stock Images
 
 ### Background:
