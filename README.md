@@ -32,11 +32,15 @@ Created the **FACT** table:
 - Is there a song which is played across all regions of the country.
 
 ### Perform ETL
-1. Extract data from songs data JSON file to fill in the **SONGS** and **ARTISTS** dimension table.
-2. Extract data from log data JSON file to fill in the **USERS** and **TIME** dimension table.
-2.1 Timestamp is represented as milliseconds in the log data
-2.2 Timestamp is transformed into **Time (hh:mm:ss), Hour, Day, Week of Year, Month, Year, Day of Week**.
-3. Extarct data from log data and from the above dimension tables to fill in the **SONGPLAYS** FACT table.
+<ol>
+<li> Extract data from songs data JSON file to fill in the **SONGS** and **ARTISTS** dimension table.</li>
+<li> Extract data from log data JSON file to fill in the **USERS** and **TIME** dimension table.</li>
+<ol>
+  <li> Timestamp is represented as milliseconds in the log data.</li>
+  <li> Timestamp is transformed into **Time (hh:mm:ss), Hour, Day, Week of Year, Month, Year, Day of Week**.</li>
+</ol>
+<li> Extarct data from log data and from the above dimension tables to fill in the **SONGPLAYS** FACT table.</li>
+</ol>
 
 ### Convert Jupter Note Book Code into Modular Python code (.py) file
 1. Convert the Python Scripts from the web kernel to modular Python code (.py) file.
