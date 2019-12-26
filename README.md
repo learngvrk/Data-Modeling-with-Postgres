@@ -20,14 +20,24 @@ Based on the user activity the startup would like to perform some analytics to d
 
 ![STAR SCHEMA](Sparkifydb.png)
 
-### Create Tables
+### Perform Normalization
+> 1. Ensured the Dimension tables meet the 3NF (Normalization Form)
+> 2. Most Important features of the selected Dimension data are used as table columns.
+> 3. One-to-Many relationship with the Fact (OLAP) Table.
+
+### Create Dimension Tables
 Created the following **DIMENSION** tables
 > 1. Users: user info (columns: user_id, first_name, last_name, gender, level)
 > 2. Songs: song info (columns: song_id, title, artist_id, year, duration)
 > 3. Artists: artist info (columns: artist_id, name, location, latitude, longitude)
 > 4. Time: detailed time info about song plays (columns: start_time, hour, day, week, month, year, weekday)
 
-Created the **FACT** table: 
+### Perform Denormalization
+> 1. Ensured the Fact tables have all the primary keys of the Dimension tables.
+> 2. All the categories of the Dimension tables are included within the Fact tables.
+> 3. All the required measures can be calculated using the aggregation function performed on the categories (data).
+
+### Create the FACT table: 
 > songplays: song play data together with user, artist, and song info (songplay_id, start_time, user_id, level, song_id, artist_id, session_id, location, user_agent)
 
 ### SQL Queries
@@ -35,6 +45,7 @@ Created the **FACT** table:
   <li> Establish connection to the local instance of the Postgres DB.</li>
   <li> Create CREATE TABLE statements to Create Dimension and Fact tables.</li>
   <li> Create INSERT INTO TABLE statements to enter the songs and log data into the Dimension and Fact table.</li>
+</ol>
 
 ### Perform ETL
 <ol>
